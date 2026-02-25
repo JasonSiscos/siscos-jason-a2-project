@@ -26,6 +26,8 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
+            Window.ClearBackground(Color.Cyan);
+
             Draw.FillColor = Color.White;
             for (int i = 0; i < 10; i++)
             {
