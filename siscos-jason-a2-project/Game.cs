@@ -26,6 +26,45 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
+            Draw.FillColor = Color.White;
+            for (int i = 0; i < 10; i++)
+            {
+                Draw.FillColor = Color.Red;
+                Draw.Circle(i * 40, i * 40, 5);
+
+                Draw.FillColor = Color.Green;
+                Draw.Circle(i * 40 + 10, i * 40 + 10, 5);
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                Draw.FillColor = Color.Red;
+                Draw.Square(i * 40 + 60, i * 40 + 60, 5);
+
+                Draw.FillColor = Color.Green;
+                Draw.Square(i * 40 + 80, i * 40 + 80, 5);
+            }
+
+            DrawEye(20);
+            DrawEye(120);
+
+
+
+            //Draw Mouth
+            Draw.FillColor = Color.White;
+            if (Input.IsKeyboardKeyDown(KeyboardInput.Space))
+            {
+                Draw.FillColor = Color.Yellow;
+            }
+            Draw.Rectangle(90, 60, 100, 20);
+        }
+
+        public void DrawEye(int x)
+        {
+            Draw.FillColor = Color.White;
+            Draw.Rectangle(x, 20, 50, 20);
+            Draw.FillColor = Color.Blue;
+            Draw.Circle(x + 25, 20, 10);
 
         }
     }
