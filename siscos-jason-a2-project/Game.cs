@@ -26,7 +26,7 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
-            Window.ClearBackground(Color.LightGray);
+            Window.ClearBackground(Color.Blue);
 
             Draw.FillColor = Color.White;
             for (int i = 0; i < 5; i++)
@@ -34,7 +34,7 @@ namespace MohawkGame2D
                 Draw.FillColor = Color.Red;
                 Draw.Circle(i * 40, i * 40, 5);
 
-                Draw.FillColor = Color.Magenta;
+                Draw.FillColor = Color.Green;
                 Draw.Circle(i * 40 + 10, i * 40 + 10, 5);
             }
 
@@ -43,7 +43,7 @@ namespace MohawkGame2D
                 Draw.FillColor = Color.Red;
                 Draw.Square(i * 40 + 60, i * 40 + 60, 5);
 
-                Draw.FillColor = Color.Magenta;
+                Draw.FillColor = Color.Green;
                 Draw.Square(i * 40 + 80, i * 40 + 80, 5);
             }
 
