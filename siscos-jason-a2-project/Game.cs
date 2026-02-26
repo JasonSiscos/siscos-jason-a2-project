@@ -26,10 +26,10 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
-            Window.ClearBackground(Color.Cyan);
+            Window.ClearBackground(Color.Green);
 
             Draw.FillColor = Color.White;
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Draw.FillColor = Color.Red;
                 Draw.Circle(i * 40, i * 40, 5);
@@ -38,7 +38,7 @@ namespace MohawkGame2D
                 Draw.Circle(i * 40 + 10, i * 40 + 10, 5);
             }
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Draw.FillColor = Color.Red;
                 Draw.Square(i * 40 + 60, i * 40 + 60, 5);
