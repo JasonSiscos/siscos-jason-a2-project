@@ -32,19 +32,19 @@ namespace MohawkGame2D
             for (int i = 0; i < 5; i++)
             {
                 Draw.FillColor = Color.Magenta;
-                Draw.Circle(i * 40, i * 40, 5);
+                Draw.Circle(i * 70, i * 70, 5);
 
                 Draw.FillColor = Color.Green;
-                Draw.Circle(i * 40 + 70, i * 40 + 70, 5);
+                Draw.Circle(i * 50 + 70, i * 50 + 70, 5);
             }
 
             for (int i = 0; i < 5; i++)
             {
                 Draw.FillColor = Color.Magenta;
-                Draw.Square(i * 40 + 60, i * 40 + 60, 5);
+                Draw.Square(i * 70 + 90, i * 70 + 90, 5);
 
                 Draw.FillColor = Color.Green;
-                Draw.Square(i * 40 + 80, i * 40 + 80, 5);
+                Draw.Square(i * 50 + 70, i * 50 + 70, 5);
             }
 
             DrawEye(20);
