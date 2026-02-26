@@ -35,7 +35,7 @@ namespace MohawkGame2D
                 Draw.Circle(i * 40, i * 40, 5);
 
                 Draw.FillColor = Color.Green;
-                Draw.Circle(i * 40 + 10, i * 40 + 10, 5);
+                Draw.Circle(i * 40 + 70, i * 40 + 70, 5);
             }
 
             for (int i = 0; i < 5; i++)
