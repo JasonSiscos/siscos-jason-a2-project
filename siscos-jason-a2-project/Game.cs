@@ -31,7 +31,7 @@ namespace MohawkGame2D
             Draw.FillColor = Color.White;
             for (int i = 0; i < 5; i++)
             {
-                Draw.FillColor = Color.Red;
+                Draw.FillColor = Color.Magenta;
                 Draw.Circle(i * 40, i * 40, 5);
 
                 Draw.FillColor = Color.Green;
@@ -40,7 +40,7 @@ namespace MohawkGame2D
 
             for (int i = 0; i < 5; i++)
             {
-                Draw.FillColor = Color.Red;
+                Draw.FillColor = Color.Magenta;
                 Draw.Square(i * 40 + 60, i * 40 + 60, 5);
 
                 Draw.FillColor = Color.Green;
